@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  font-size: 1.1em;
+  background-color: white;
+}
+ul, li, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-size: small;
+  
+  
+  
+}
+h3 {
+  text-align: center;
+  
+}
+h2 {
+  color: #118f03;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.btn {
+  background: none;
+  border: 6px solid rgb(31, 31, 31)83;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #000000be;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+.btn-log {
+  background: none;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #000000be;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+.btn-log:hover {
+  
+  background: #02193f5a;
+  border: 6px solid rgb(31, 31, 31)83;
+  color: #000000;
+  outline-color: transparent;
+  outline-style:solid;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #000000;
+  color: #fff4f4;
+  transition: 0.7s;
+  
+}

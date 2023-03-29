@@ -1,0 +1,33 @@
+.project-filter {
+    margin: 30px auto;
+    max-width: auto;
+  }
+  .project-filter nav {
+    display: flex;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: #f2e38040;
+    border-radius: 4px;
+  }
+  .project-filter p {
+    font-size: 0.9em;
+    margin-right: 10px;
+  }
+  .project-filter button {
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+    border: 0.5px solid #000000;
+    font-size: 0.9em;
+  }
+  .project-filter button:hover {
+    background-color: #f9dd0cbf
+  }
+  .project-filter button:last-child {
+    border: 1;
+  }
+  .project-filter button.active {
+    color: rgb(255, 0, 0)}

@@ -1,0 +1,42 @@
+
+/* navbar styles */
+.navbar {
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    background: linear-gradient(90deg,#f9dd0cbf 0%, rgba(227, 227, 7, 0.195) 16%, rgba(247, 247, 71, 0.348) 55%, #f9dd0cbf 100%);
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 40px;
+    
+
+  }
+  .navbar ul {
+    display: flex;
+    margin: 0 auto;
+    max-width: 560px;
+    align-items: center;
+    
+  }
+  .navbar li {
+    font-weight: bold;
+  }
+  
+  .title {
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    
+    
+  }
+  .navbar button, .navbar a {
+    margin-left: 16px;
+  }
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+  }
